@@ -1,0 +1,14 @@
+{
+  "name": "vitejs-stack-mern-quickstart",
+  "author": "Tox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "prettier": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && yarn run dev\" \"cd client && yarn run sass\""
+  }
+}
