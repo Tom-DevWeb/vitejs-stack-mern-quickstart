@@ -22,7 +22,7 @@
 ## Sommaire
 
 - [🛠️ Installation](#%EF%B8%8F-installation)
-  - [Etape 1: Clonez le dépôt Github](etape-1--clonez-le-d%C3%A9p%C3%B4t-github)
+  - [Etape 1: Clonez le dépôt Github](#etape-1--clonez-le-d%C3%A9p%C3%B4t-github)
   - [Etape 2 : Installez les dpéndances](#etape-2--installez-les-dp%C3%A9ndances)
   - [Etape 3 : Configurez la partie server](#etape-3--configurer-la-partie-server)  
 - [💻 Utilisation](#-utilisation)
