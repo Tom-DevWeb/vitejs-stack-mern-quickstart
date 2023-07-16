@@ -1,5 +1,6 @@
 {
   "name": "vitejs-stack-mern-quickstart",
+  "description": "This is a quick start project template that combines the power of Vite.js and the MERN (MongoDB, Express, React, Node.js) stack. It provides a solid foundation for building modern web applications with a fast development experience.",
   "author": "Tox",
   "version": "1.0.0",
   "main": "index.js",
@@ -9,6 +10,7 @@
     "prettier": "^3.0.0"
   },
   "scripts": {
-    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && yarn run dev\" \"cd client && yarn run sass\""
+    "dev": "concurrently \"cd server && nodemon server.mjs\" \"cd client && yarn run dev\" \"cd client && yarn run sass\"",
+    "dev-client": "concurrently \"cd client && yarn run dev\" \"cd client && yarn run sass\""
   }
 }
