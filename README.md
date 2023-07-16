@@ -172,6 +172,6 @@ I am open to community contributions! If you want to contribute to this project,
 
 If you find this project helpful or appreciate the work I've done, you can support me by buying me a coffee ☕️ via Ko-fi. Your support encourages me to continue improving and developing this project for the community.
 
-[![Buy us a coffee](https://img.shields.io/badge/Support%20us%20on-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/toxyhdev)
+[![Buy us a coffee](https://img.shields.io/badge/Support%20us%20on-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/toxdev)
 
 
