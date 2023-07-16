@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Projet de démarrage rapide avec Vite.js + Stack MERN 🌱</h1> 
+<h1 align="center">⚡ Quick Start Project with Vite.js + MERN Stack 🌱</h1> 
 
 <p align="center">
   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="vite.js">
@@ -19,140 +19,145 @@
 </p>
 
 
-## Sommaire
+## Table of Contents
 
 - [🛠️ Installation](#%EF%B8%8F-installation)
-  - [Etape 1: Clonez le dépôt Github](etape-1-clonez-du-d%C3%A9p%C3%B4t-github)
-  - [Etape 2 : Installez les dpéndances](#etape-2--installez-les-dp%C3%A9ndances)
-  - [Etape 3 : Configurez la partie server](#etape-3--configurer-la-partie-server)  
-- [💻 Utilisation](#-utilisation)
-- [🔩 Liste des dépendances](#-d%C3%A9pendances-install%C3%A9s)
+  - [Step 1: Clone the Github repository](#step-1-clone-the-github-repository)
+  - [Step 2: Install dependencies](#step-2-install-dependencies)
+  - [Step 3: Configure the server part](#step-3-configure-the-server-part)  
+- [💻 Usage](#-usage)
+- [🔩 List of Dependencies](#-list-of-dependencies)
 - [🔑 License](#-license)
-- [💡 Contributions](#-contribution)
-- [💖 Soutenir le projet](#-soutenir-le-projet)
+- [💡 Contribution](#-contribution)
+- [💖 Support the Project](#-support-the-project)
 
 ## 🛠️ Installation
 
-### Etape 1: Clonez le dépôt Github
+### Step 1: Clone the Github repository
 
-- Ouvrez votre répertoire de développement pour cloner le dépot github :
+- Open your development directory to clone the Github repository:
    ```css
    git clone https://github.com/ToxyhDev/vitejs-stack-mern-quickstart.git
    ```
 
-### Etape 2 : Installez les dpéndances
+### Step 2: Install dependencies
 
-- Allez dans le répertoire racine du projet :
+- Go to the **root directory** of the project:
    ```shell
    cd vitejs-stack-mern-quickstart
    ```
-  - Installez les dépendances globales du projet:
+  - Install global dependencies of the project:
 
      ```shell
-     # Avec NPM:
+     # With NPM:
      npm install
-     # Avec Yarn:
+     # With Yarn:
      yarn
      ```
 
-- Allez dans le répertoire **client** :
+- Go to the **client** directory:
    ```shell
    cd client
    ```
-   - Installez les dépendances côté client:
+   - Install client-side dependencies:
 
      ```shell
-     # Avec NPM:
+     # With NPM:
      npm install
-     # Avec Yarn:
+     # With Yarn:
      yarn
      ```
 
-- Allez dans le répertoire **server** :
+- Go to the **server** directory:
      ```shell
    cd ../server
    ```
-   - Installez les dépendances côté server:
+   - Install server-side dependencies:
     
      ```shell
-     # Avec NPM:
+     # With NPM:
      npm install
-     # Avec Yarn:
+     # With Yarn:
      yarn
      ```
 
-### Etape 3 : Configurer la partie server
+### Step 3: Configure the server part
 > **Note**
 >
-> Si vous ne souhaitez pas connecter immédiatement votre base de données, vous pouvez passer à la section [💻 Utilisation](#-utilisation)
+>If you don't want to connect your database immediately, you can skip to [💻 Usage](#-usage)
 
-9. Créer le fichier .env contenant la clé de L'API MongoDB:
+9. Create the .env file containing the MongoDB API key:
    ```shell
    echo "ATLAS_URI=mongodb+srv://<username>:<password>@<cluster>/?retryWrites=true&w=majority" > .env
    ```
    > **Warning**
    > 
-   > **Si aucune base de données n'est connectée à la partie serveur, un message d'erreur s'affichera dans la console au moment de démarrer le projet**
+   > **If no database is connected to the server part, an error message will be displayed in the console when starting the project**
 
-## 💻 Utilisation
+## 💻 Usage
 
- ### Démarez le serveur de développement:
+ ### Start the development server:
 
-- Rendez-vous à la racine du projet.
+- Go to the root of the project.
 > **Note**
 >
-> C'est le répertoire global où vous avez les dossiers client et server.
+> This is the global directory where you have the client and server folders.
 
-- Dans ce répertoire, effectuez la commande :
+- In this directory, run the command:
 ```shell
-# Avec NPM:
+# With NPM:
 npm run dev
-# Avec Yarn:
+# With Yarn:
 yarn run dev
 ```
 > **Warning**
 >
-> Si vous souhaitez utiliser uniquemment la partie client:
+> If you only want to use the client part:
 >
 > ```shell
-> # Avec NPM:
+> # With NPM:
 > npm run dev-client
-> # Avec Yarn:
+> # With Yarn:
 > yarn run dev-client
 > ```
 
 
-## 🔩 Dépendances installés
+## 🔩 List of Dependencies
 
-### Dépendances de développement :
+### Development Dependencies:
 
-- **vite** : Outil de développement rapide pour les applications Web modernes. Offre des performances de développement élevées grâce à sa compilation rapide et son chargement à la demande des modules.
+- **vite**: Fast development tool for modern web applications. Provides high development performance with its fast compilation and on-demand module loading.
 
-- **typescript** : Sur-ensemble de JavaScript avec des fonctionnalités de typage statique. Permet de détecter les erreurs potentielles dès la phase de développement.
+- **typescript**: Superset of JavaScript with static typing features. Allows detecting potential errors early in the development phase.
 
-- **sass** : Compilateur Sass pour transformer les fichiers Sass en CSS dans votre projet.
+- **sass**: Sass compiler to transform Sass files into CSS in your project.
 
-- **eslint**, **eslint-plugin-react-hooks** et **eslint-plugin-react-refresh** : ESLint et plugins associés pour détecter les erreurs dans le code React, avec des règles supplémentaires pour les hooks React et le rechargement à chaud (hot reloading).
+- **eslint**, **eslint-plugin-react-hooks**, and **eslint-plugin-react-refresh**: ESLint and associated plugins for detecting errors in React code, with additional rules for React hooks and hot reloading.
 
-### Dépendances Frontend :
+### Frontend Dependencies:
 
-- **bootstrap** : Framework CSS pour créer des interfaces Web réactives et mobiles.
+- **bootstrap**: CSS framework for creating responsive and mobile web interfaces.
 
-- **react** et **react-dom** : Bibliothèques principales pour la construction d'interfaces utilisateur réactives. React est un framework JavaScript pour créer des composants réutilisables et React DOM facilite le rendu des composants React dans le navigateur.
+- **react** and **react-dom**: Core libraries for building responsive user interfaces. React is a JavaScript framework for creating reusable components, and React DOM facilitates rendering React components in the browser.
 
-- **react-router-dom** : Bibliothèque pour la gestion des routes dans une application React. Permet de créer des applications à pages multiples et de naviguer entre les différentes vues.
+- **react-router-dom**: Library for managing routes in a React application. Allows creating multi-page applications and navigating between different views.
 
-### Dépendances Backend :
+### Backend Dependencies:
 
-- **cors** : Permet le partage de ressources entre les origines. Facilite la communication entre le frontend et le backend en acceptant des requêtes cross-origin.
+- **cors**: Enables resource sharing between origins. Facilitates communication between frontend and backend by accepting cross-origin requests.
 
-- **dotenv** : Charge les variables d'environnement d'un fichier .env dans le fichier `process.env`. Permet de séparer les fichiers de configuration du code et de stocker des informations sensibles en toute sécurité.
+- **dotenv**: Loads environment variables from a .env file into the `process.env`. Allows separating configuration files from code and securely storing sensitive information.
 
-- **express** : Framework Web pour Node.js. Facilite la gestion des routes, des requêtes HTTP et des middlewares.
+- **express**: Web framework for Node.js. Facilitates handling routes, HTTP requests, and middlewares.
 
-- **mongodb** : Pilote de base de données MongoDB pour se connecter à la base de données MongoDB et travailler avec des données.
+- **mongodb**: MongoDB database driver for connecting to the MongoDB database and working with data.
 
-- **mongoose** : Bibliothèque de modélisation pour MongoDB en Node.js. Facilite la création de schémas pour vos données et fournit des méthodes pour interagir avec la base de données MongoDB.
+- **mongoose**: Modeling library for MongoDB in Node.js. Facilitates schema creation for your data and provides methods to interact with the MongoDB database.
+
+> **Note**
+> 
+> You can find more information about these dependencies in the project's documentation or their respective websites.
+
 
 
 ## 🔑 License
@@ -161,11 +166,11 @@ yarn run dev
 
 ## 💡 Contribution
 
-Je suis ouvert aux contributions de la communauté ! Si vous souhaitez contribuer à ce projet, n'hésitez pas à créer une Pull Request pour proposer vos changements.J'apprécie toutes les contributions et je m'efforcerai de les examiner dès que possible. Merci de contribuer à ce projet !
+I am open to community contributions! If you want to contribute to this project, feel free to create a Pull Request to propose your changes. I appreciate all contributions and will do my best to review them as soon as possible. Thank you for contributing to this project!
 
-## 💖 Soutenir le projet
+## 💖 Support the project
 
-Si vous trouvez ce projet utile ou appréciez le travail que j'ai réalisé, vous pouvez me soutenir en m'offrant un café ☕️ via Ko-fi. Votre soutien m'encourage à continuer à améliorer et à développer ce projet pour la communauté.
+If you find this project helpful or appreciate the work I've done, you can support me by buying me a coffee ☕️ via Ko-fi. Your support encourages me to continue improving and developing this project for the community.
 
 [![Buy us a coffee](https://img.shields.io/badge/Support%20us%20on-Ko--fi-FF5E5B?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/toxyhdev)
 
