@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "concurrently": "^8.2.0",
     "prettier": "^3.0.0"
