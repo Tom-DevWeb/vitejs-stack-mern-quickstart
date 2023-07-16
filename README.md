@@ -86,9 +86,10 @@
 >
 >If you don't want to connect your database immediately, you can skip to [💻 Usage](#-usage)
 
-9. Create the .env file containing the MongoDB API key:
-   ```shell
-   echo "ATLAS_URI=mongodb+srv://<username>:<password>@<cluster>/?retryWrites=true&w=majority" > .env
+9. Create a file named .env and register MongoDB API key:
+    
+   ```env
+   ATLAS_URI=mongodb+srv://<username>:<password>@<cluster>/?retryWrites=true&w=majority
    ```
    > **Warning**
    > 
